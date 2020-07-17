@@ -70,8 +70,8 @@ namespace CoinbasePro.Shared.Types
         GntUsdc,
         [EnumMember(Value = "DAI-USDC")]
         DaiUsdc,
-        [EnumMember(Value = "MKR-USDC")]
-        MkrUsdc,
+        [EnumMember(Value = "MKR-USD")]
+        MkrUsd,
         [EnumMember(Value = "MKR-BTC")]
         MkrBtc,
         [EnumMember(Value = "ZIL-USDC")]
@@ -82,12 +82,22 @@ namespace CoinbasePro.Shared.Types
         XrpBtc,
         [EnumMember(Value = "XRP-USD")]
         XrpUsd,
+        [EnumMember(Value = "XRP-GBP")]
+        XrpGbp,
         [EnumMember(Value = "XLM-USD")]
         XlmUsd,
         [EnumMember(Value = "XLM-BTC")]
         XlmBtc,
         [EnumMember(Value = "XLM-EUR")]
         XlmEur,
+        [EnumMember(Value = "XTZ-USD")]
+        XtzUsd,
+        [EnumMember(Value = "XTZ-BTC")]
+        XtzBtc,
+        [EnumMember(Value = "XTZ-EUR")]
+        XtzEur,
+        [EnumMember(Value = "XTZ-GBP")]
+        XtzGbp,
         [EnumMember(Value = "EOS-USD")]
         EosUsd,
         [EnumMember(Value = "EOS-EUR")]
@@ -100,5 +110,51 @@ namespace CoinbasePro.Shared.Types
         RepEur,
         [EnumMember(Value = "REP-BTC")]
         RepBtc,
+        [EnumMember(Value = "ALGO-USD")]
+        AlgoUsd,
+        [EnumMember(Value = "ALGO-EUR")]
+        AlgoEur,
+        [EnumMember(Value = "ALGO-GBP")]
+        AlgoGbp,
+        [EnumMember(Value = "BAT-ETH")]
+        BatEth,
+        [EnumMember(Value = "ETH-DAI")]
+        EthDai,
+        [EnumMember(Value = "LINK-ETH")]
+        LinkEth,
+        [EnumMember(Value = "LINK-USD")]
+        LinkUsd,
+        [EnumMember(Value = "LINK-EUR")]
+        LinkEur,
+        [EnumMember(Value = "LINK-GBP")]
+        LinkGbp,
+        [EnumMember(Value = "ZEC-BTC")]
+        ZecBtc,
+        [EnumMember(Value = "DASH-USD")]
+        DashUsd,
+        [EnumMember(Value = "DASH-BTC")]
+        DashBtc,
+        [EnumMember(Value = "OXT-USD")]
+        OxtUsd,
+        [EnumMember(Value = "ATOM-USD")]
+        AtomUsd,
+        [EnumMember(Value = "ATOM-BTC")]
+        AtomBtc,
+        [EnumMember(Value = "OMG-USD")]
+        OmgUsd,
+        [EnumMember(Value = "OMG-EUR")]
+        OmgEur,
+        [EnumMember(Value = "OMG-GBP")]
+        OmgGbp,
+        [EnumMember(Value = "OMG-BTC")]
+        OmgBtc,
+        [EnumMember(Value = "KNC-USD")]
+        KncUsd,
+        [EnumMember(Value = "KNC-BTC")]
+        KncBtc,
+        [EnumMember(Value = "COMP-BTC")]
+        CompBtc,
+        [EnumMember(Value = "COMP-USD")]
+        CompUsd
     }
 }

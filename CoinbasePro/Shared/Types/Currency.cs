@@ -24,8 +24,17 @@
         Unknown,
         XLM,
         XRP,
+        XTZ,
         ZEC,
         ZIL,
-        ZRX
+        ZRX,
+        ALGO,
+        LINK,
+        DASH,
+        OXT,
+        ATOM,
+        OMG,
+        KNC,
+        COMP
     }
 }
